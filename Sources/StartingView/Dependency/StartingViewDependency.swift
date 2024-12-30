@@ -14,7 +14,7 @@ public protocol StartingViewCoordinator {
 public struct StartingViewDependency {
     let coordinator: StartingViewCoordinator
     
-    init(coordinator: StartingViewCoordinator) {
+    public init(coordinator: StartingViewCoordinator) {
         self.coordinator = coordinator
     }
 }
