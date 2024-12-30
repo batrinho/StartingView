@@ -29,7 +29,7 @@ final class StartingViewController: UIViewController, StartingViewOutput {
         button.setTitle("start", for: .normal)
         button.titleLabel?.font = UIFont.preferredFont(forTextStyle: .title1)
         button.setTitleColor(.label, for: .normal)
-        button.backgroundColor = .secondaryLabel
+        button.backgroundColor = .systemGray
         button.layer.cornerRadius = 30
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
